@@ -14,11 +14,18 @@
 .box-head {
   border-radius: 10px 10px 0px 0px;
   border: 2px solid black;
-  width: 160px;
+  width: 164px;
   height: 30px;
   margin-left: -2px;
   margin-top: -2px;
   background-color: rgba(255, 0, 0, 0.733);
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+}
+.box-head:hover {
+  cursor: pointer;
+  opacity: .8;
 }
 .date {
   color: black;
@@ -28,4 +35,17 @@
   margin-top: -1px;
   display:flex;
   justify-content: center;
+}
+.button-panel {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  height: 100px;
+  margin: auto;
+  margin-top: 250px;
+  margin-right: 160px;
+  
+}
+.calender {
+  display:inline-block;
 }

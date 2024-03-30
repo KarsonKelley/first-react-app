@@ -1,3 +1,4 @@
-function day() {
-    return <h2>Hello World</h2>;
+function displayText() {
+    var text = document.getElementById("textField");
+    text.style.display = "block";
 }
